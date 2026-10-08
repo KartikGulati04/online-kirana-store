@@ -1,0 +1,234 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Aashirvaad Shuddh Chakki Atta",
+      "category": "Atta, Rice & Pulses",
+      "costPrice": 280,
+      "sellingPrice": 340,
+      "stockQuantity": 45,
+      "unit": "5 kg",
+      "image": "https://images.unsplash.com/photo-1574316071802-0d684efa7bf5?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 10,
+      "badge": "Best Seller"
+    },
+    {
+      "id": "prod-2",
+      "name": "Fortune Sunlite Refined Sunflower Oil",
+      "category": "Oils & Ghee",
+      "costPrice": 125,
+      "sellingPrice": 155,
+      "stockQuantity": 30,
+      "unit": "1 L",
+      "image": "https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 8,
+      "badge": "Essential"
+    },
+    {
+      "id": "prod-3",
+      "name": "Tata Salt Vacuum Evaporated Iodised",
+      "category": "Spices & Staples",
+      "costPrice": 20,
+      "sellingPrice": 28,
+      "stockQuantity": 120,
+      "unit": "1 kg",
+      "image": "https://images.unsplash.com/photo-1518110165389-13e61405e3a8?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 20,
+      "badge": ""
+    },
+    {
+      "id": "prod-4",
+      "name": "Amul Taaza Toned Fresh Milk",
+      "category": "Dairy & Bakery",
+      "costPrice": 26,
+      "sellingPrice": 30,
+      "stockQuantity": 5,
+      "unit": "500 ml",
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 10,
+      "badge": "Low Stock"
+    },
+    {
+      "id": "prod-5",
+      "name": "Amul Butter Pasteurised",
+      "category": "Dairy & Bakery",
+      "costPrice": 48,
+      "sellingPrice": 58,
+      "stockQuantity": 25,
+      "unit": "100 g",
+      "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 5,
+      "badge": ""
+    },
+    {
+      "id": "prod-6",
+      "name": "India Gate Basmati Rice Feast Rozzana",
+      "category": "Atta, Rice & Pulses",
+      "costPrice": 320,
+      "sellingPrice": 415,
+      "stockQuantity": 18,
+      "unit": "5 kg",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 5,
+      "badge": "Popular"
+    },
+    {
+      "id": "prod-7",
+      "name": "Red Label Strong Tea Powder",
+      "category": "Snacks & Beverages",
+      "costPrice": 110,
+      "sellingPrice": 140,
+      "stockQuantity": 40,
+      "unit": "250 g",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 10,
+      "badge": ""
+    },
+    {
+      "id": "prod-8",
+      "name": "Maggi 2-Minute Masala Noodles Pack",
+      "category": "Snacks & Beverages",
+      "costPrice": 50,
+      "sellingPrice": 60,
+      "stockQuantity": 80,
+      "unit": "4 x 70 g",
+      "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 15,
+      "badge": "Top Seller"
+    },
+    {
+      "id": "prod-9",
+      "name": "Surf Excel Easy Wash Detergent Powder",
+      "category": "Personal & Home Care",
+      "costPrice": 115,
+      "sellingPrice": 145,
+      "stockQuantity": 22,
+      "unit": "1 kg",
+      "image": "https://images.unsplash.com/photo-1585842378054-ee2e52f94ba2?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 6,
+      "badge": ""
+    },
+    {
+      "id": "prod-10",
+      "name": "Dettol Antiseptic Soap Bar 3+1 Pack",
+      "category": "Personal & Home Care",
+      "costPrice": 130,
+      "sellingPrice": 160,
+      "stockQuantity": 35,
+      "unit": "4 x 125 g",
+      "image": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=400&q=80",
+      "lowStockThreshold": 8,
+      "badge": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customerName": "Ramesh Kumar Sharma",
+      "phone": "+91 98765 43210",
+      "address": "House #42, Sector 14, Near Main Market",
+      "items": [
+        {
+          "id": "prod-1",
+          "name": "Aashirvaad Shuddh Chakki Atta",
+          "unit": "5 kg",
+          "sellingPrice": 340,
+          "costPrice": 280,
+          "quantity": 1
+        },
+        {
+          "id": "prod-3",
+          "name": "Tata Salt Vacuum Evaporated Iodised",
+          "unit": "1 kg",
+          "sellingPrice": 28,
+          "costPrice": 20,
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 396,
+      "profitAmount": 76,
+      "paymentMethod": "upi",
+      "status": "Delivered",
+      "date": "2026-10-07T05:01:38.751Z"
+    },
+    {
+      "id": "ORD-1002",
+      "customerName": "Sunita Verma",
+      "phone": "+91 99887 76655",
+      "address": "Flat 203, Green Valley Apartments",
+      "items": [
+        {
+          "id": "prod-2",
+          "name": "Fortune Sunlite Refined Sunflower Oil",
+          "unit": "1 L",
+          "sellingPrice": 155,
+          "costPrice": 125,
+          "quantity": 2
+        },
+        {
+          "id": "prod-5",
+          "name": "Amul Butter Pasteurised",
+          "unit": "100 g",
+          "sellingPrice": 58,
+          "costPrice": 48,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 368,
+      "profitAmount": 70,
+      "paymentMethod": "khata",
+      "status": "Pending",
+      "date": "2026-10-08T05:01:38.753Z"
+    }
+  ],
+  "khata": [
+    {
+      "id": "khata-1",
+      "customerName": "Sunita Verma",
+      "phone": "+91 99887 76655",
+      "address": "Flat 203, Green Valley Apartments",
+      "totalBalance": 1450,
+      "creditLimit": 5000,
+      "history": [
+        {
+          "id": "tx-1",
+          "type": "debit",
+          "amount": 368,
+          "description": "Order #ORD-1002 (Oil & Butter)",
+          "date": "2026-10-08T05:01:38.753Z"
+        },
+        {
+          "id": "tx-2",
+          "type": "debit",
+          "amount": 1082,
+          "description": "Monthly Groceries Tab (Sept)",
+          "date": "2026-09-26T15:14:58.753Z"
+        }
+      ]
+    },
+    {
+      "id": "khata-2",
+      "customerName": "Vikram Malhotra",
+      "phone": "+91 91234 56789",
+      "address": "Shop 12, Main Road",
+      "totalBalance": 820,
+      "creditLimit": 3000,
+      "history": [
+        {
+          "id": "tx-3",
+          "type": "debit",
+          "amount": 1320,
+          "description": "Bulk Rice & Spices Purchase",
+          "date": "2026-10-02T10:08:18.753Z"
+        },
+        {
+          "id": "tx-4",
+          "type": "credit",
+          "amount": 500,
+          "description": "Partial Payment via UPI",
+          "date": "2026-10-05T21:28:18.753Z"
+        }
+      ]
+    }
+  ]
+}
